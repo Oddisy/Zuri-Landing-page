@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  padding: 20px;
+  background-color: #242526;
+}
+.sibling {
+  float: right;
+  display: flex;
+}
+.sibling2 {
+  color: rgb(231, 226, 226);
+  font-size: 22px;
+  opacity: 0.5;
+  margin-right: 10px;
+}
+
+.child {
+  margin: auto;
+  margin-left: 20px;
+}
+.gchild {
+  color: white;
+  display: flex;
+  margin-right: 35px;
+}
+
+.gsibling1 {
+  background-color: rgb(249, 20, 20);
+  padding: 8px 18px;
+  margin-right: 15px;
+  border-radius: 18px;
+  color: white;
+}
+.gsibling2 {
+  background-color: rgb(249, 20, 20);
+  padding: 8px 10px;
+  border-radius: 18px;
+  color: whites;
+}
+.main {
+  /* margin: 280px 300px 300px 320px; */
+  position: absolute;
+  top: 60%;
+  left: 21%;
+  transform: translate(0, -80%);
+}
+
+body {
+  width: 100%;
+  height: 600px;
+}
+.top {
+  font-size: 45px;
+}
+
+button:hover {
+  background-color: #0c3252;
+  border: 3px solid white;
+  cursor: pointer;
+}
